@@ -19,6 +19,7 @@
 <head>
 <meta charset="utf-8">
 <title>Alfena Template | Homepage</title>
+<base href="/">
 <!-- Stylesheets -->
 <link href="./assets/alfena-package/alfena/css/bootstrap.css" rel="stylesheet">
 <link href="./assets/alfena-package/alfena/css/style.css" rel="stylesheet">
@@ -36,7 +37,7 @@
 
 <body>
 <div class="page-wrapper">
- 	
+		<app-root></app-root>
     <!-- Preloader -->
     <div class="preloader"></div>
  	
@@ -49,7 +50,12 @@
             	<div class="clearfix">
                 	
                 	<div class="pull-left logo-outer">
-                    	<div class="logo"><a href="./assets/alfena-package/alfena/index.html"><img src="./assets/alfena-package/alfena/images/logo.png" alt="" title=""></a></div>
+                    	<div class="logo">
+							<a style="display: flex; align-items: flex-end;" href="./assets/alfena-package/alfena/index.html">
+								<img style="height: 75px;"src="./assets/alfena-package/alfena/images/logo.png" alt="" title="">
+								<div>OLUTION</div>
+							</a>
+						</div>
                     </div>
                    	
 					<div class="pull-right upper-right clearfix">
@@ -747,7 +753,7 @@
 	<!-- End Sponsors Section -->
 	
 	<!-- Download Section -->
-	<section class="download-section" style="background-image:url(images/background/1.jpg)">
+	<section class="download-section">
 		<div class="circle-icons paroller" data-paroller-factor="-0.05" data-paroller-factor-lg="-0.05" data-paroller-factor-md="-0.05" data-paroller-factor-sm="-0.08" data-paroller-type="foreground" data-paroller-direction="vertical">
 			<span class="icon-one paroller" data-paroller-factor="0.10" data-paroller-factor-lg="0.10" data-paroller-factor-md="0.10" data-paroller-factor-sm="0.08" data-paroller-type="foreground" data-paroller-direction="vertical"></span>
 			<span class="icon-two paroller" data-paroller-factor="-0.08" data-paroller-factor-lg="-0.08" data-paroller-factor-md="-0.08" data-paroller-factor-sm="-0.08" data-paroller-type="foreground" data-paroller-direction="horizontal"></span>
