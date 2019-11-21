@@ -8,7 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build:prod": "ng build --prod --output-path dist"
+    "build:prod": "ng build --prod --output-path dist",
+    "deploy": "npm run build:prod && firebase deploy"
   },
   "private": true,
   "dependencies": {
